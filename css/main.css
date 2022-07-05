@@ -859,9 +859,22 @@ img {
     line-height: 1;
     color: #0297F1;
     text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .production {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 360px;
     height: 360px;
     border: 2px solid green;
@@ -873,6 +886,40 @@ img {
   .picture__img {
     position: absolute;
     top: 100px;
-    left: 50px;
+    left: 30px;
+  }
+
+  .constituent {
+    width: 630px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .constituent__list {
+    padding-bottom: 50px;
+  }
+  .constituent__list:nth-child(2) {
+    margin-left: 65px;
+  }
+  .constituent__list:nth-child(3) {
+    margin-left: 65px;
+  }
+  .constituent__subtitle {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 600;
+    color: #0297F1;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+  .constituent__text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #13284F;
   }
 }/*# sourceMappingURL=main.css.map */
