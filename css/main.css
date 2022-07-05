@@ -849,6 +849,7 @@ img {
 }
 @media screen and (min-width: 1110px) {
   .gasholder {
+    padding: 84px 0px 42px 0px;
     display: block;
     background-color: rgb(221, 236, 255);
   }
@@ -867,6 +868,7 @@ img {
     border-radius: 50%;
     background-color: #fff;
     position: relative;
+    margin-top: 90px;
   }
   .picture__img {
     position: absolute;
