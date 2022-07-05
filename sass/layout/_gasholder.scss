@@ -1,0 +1,47 @@
+@media screen and (min-width: 375px ) {
+ .gasholder {
+display: none;
+ 
+}
+}
+
+@media screen and (min-width: 1110px ) {
+.gasholder {
+   display: block;
+background-color: $main_bg;
+   &__heading {
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 1;
+      color: $link;
+      text-align: center;
+   }
+}
+.container {
+}
+.picture {
+width: 360px;
+height: 360px;
+border: 2px solid green;
+border-radius: 50%;
+background-color: #fff;
+position: relative;
+   &__img {
+      position: absolute;
+      top:100px;
+      left: 50px;
+   }
+}
+.constituent {
+
+   &__list {
+   }
+
+   &__subtitle {
+      
+   }
+
+   &__text {
+   }
+}
+}
