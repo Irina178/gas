@@ -1164,4 +1164,146 @@ img {
     color: #13284F;
     padding-bottom: 20px;
   }
+}
+@media screen and (min-width: 375px) {
+  .question {
+    padding: 35px 0px 40px;
+    background-color: rgb(221, 236, 255);
+  }
+
+  .connection {
+    margin-bottom: 35px;
+  }
+
+  .piple {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .piple__img {
+    width: 225px;
+    height: 284px;
+  }
+
+  .consultation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .consultation__heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+  .consultation__link {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .consultation__link:hover {
+    color: #0297F1;
+    text-decoration: underline;
+  }
+  .consultation__text {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 15px 0px 50px 0px;
+    text-align: center;
+  }
+  .consultation__buttom {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #EF8711;
+    background-color: #FFFFFF;
+    padding: 12px 58px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .consultation__buttom:hover {
+    color: #FFFFFF;
+    background-color: #EF8711;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .question {
+    padding: 60px 0px 90px 0px;
+  }
+
+  .connection {
+    width: 1080px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .piple {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .piple__img {
+    width: 380px;
+    height: 480px;
+  }
+
+  .consultation {
+    padding: 75px 0px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 11px 25px 0px;
+  }
+  .consultation__heading {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #13284F;
+  }
+  .consultation__link {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #13284F;
+  }
+  .consultation__text {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #13284F;
+    margin: 25px 0px 40px;
+    text-align: center;
+  }
+  .consultation__buttom {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #EF8711;
+    background-color: #13284F;
+    padding: 15px 58px;
+    text-align: center;
+    background-color: #EF8711;
+  }
 }/*# sourceMappingURL=main.css.map */
