@@ -723,6 +723,128 @@ img {
   }
 }
 @media screen and (min-width: 375px) {
+  .footer {
+    background-color: rgb(19, 40, 79);
+    padding: 15px 0px 15px 0px;
+  }
+
+  .denomination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .make {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 55px;
+  }
+
+  .product {
+    margin-right: 10px;
+  }
+  .product__list {
+    margin-bottom: 15px;
+  }
+  .product__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.8;
+    color: #FFFFFF;
+  }
+  .product__link:hover {
+    color: #85888F;
+    text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 50px;
+  }
+  .contact__list {
+    margin-bottom: 15px;
+  }
+  .contact__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.8;
+    color: #FFFFFF;
+  }
+  .contact__link:hover {
+    color: #85888F;
+    text-decoration: underline;
+  }
+
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .social__svg {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .footer {
+    background-color: rgb(19, 40, 79);
+    padding: 15px 0px 15px 0px;
+  }
+
+  .denomination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .make {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .direction {
+    margin-right: 100px;
+  }
+
+  .product__list {
+    margin-bottom: 15px;
+  }
+  .product__link {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .contact__list {
+    margin-bottom: 15px;
+  }
+  .contact__link {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 375px) {
   .gasification {
     background-image: url(/img/main/gasification_mobile_1x.png);
     background-repeat: no-repeat;
@@ -1173,10 +1295,14 @@ img {
 
   .connection {
     margin-bottom: 35px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 345px;
   }
 
   .piple {
     margin-bottom: 30px;
+    padding-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1206,13 +1332,13 @@ img {
     font-size: 26px;
     font-weight: 600;
     line-height: 1.2;
-    color: #FFFFFF;
+    color: #13284F;
   }
   .consultation__link {
     font-size: 26px;
     font-weight: 600;
     line-height: 1;
-    color: #FFFFFF;
+    color: #13284F;
     text-align: center;
   }
   .consultation__link:hover {
@@ -1223,23 +1349,9 @@ img {
     font-size: 24px;
     line-height: 1.2;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #13284F;
     margin: 15px 0px 50px 0px;
     text-align: center;
-  }
-  .consultation__buttom {
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #EF8711;
-    background-color: #FFFFFF;
-    padding: 12px 58px;
-    border-radius: 8px;
-    text-align: center;
-  }
-  .consultation__buttom:hover {
-    color: #FFFFFF;
-    background-color: #EF8711;
   }
 }
 @media screen and (min-width: 1110px) {
@@ -1257,13 +1369,14 @@ img {
   }
 
   .piple {
+    margin: 20px 20px 20px 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .piple__img {
     width: 380px;
-    height: 480px;
+    height: 400px;
   }
 
   .consultation {
@@ -1295,15 +1408,5 @@ img {
     color: #13284F;
     margin: 25px 0px 40px;
     text-align: center;
-  }
-  .consultation__buttom {
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #EF8711;
-    background-color: #13284F;
-    padding: 15px 58px;
-    text-align: center;
-    background-color: #EF8711;
   }
 }/*# sourceMappingURL=main.css.map */
