@@ -1,0 +1,88 @@
+@media screen and (min-width: 375px ) {
+   .expert {
+      background-color: $main_bg;
+   }
+   .gasholder__heading{
+padding: 30px 0px 40px;
+   }
+   .container {
+   }
+   .adept {
+      background-color: $white;
+      border-radius: 6px;
+     
+   }
+   .discussion {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 34px;
+   }
+   .information {
+    
+         &__text {
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 400;
+            color: $blue_end_black;
+            margin-bottom: 10px;
+            padding-left: 15px;
+         }
+   }
+   .color {
+      color: $orange;
+      margin-bottom: 22px;
+   }
+   .result {
+   
+         &__list {
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 15px;
+            padding-left: 50px;
+            margin-right: 20px;
+         }
+   }
+   .input {
+   }
+   
+}
+@media screen and (min-width: 1110px ) {
+   .expert {
+   }
+   .container {
+   }
+   .adept {
+   }
+   .discussion {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding-bottom: 43px;
+   }
+   .information {
+  
+   
+         &__text {
+            font-size: 20px;
+            line-height: 1;
+            font-weight: 400;
+            padding-left: 65px;
+         }
+   }
+   .color {
+      margin-bottom: 50px;
+   }
+   .result {
+   
+         &__list {
+            font-size: 18px;
+            padding-bottom: 35px;
+            padding-left: 105px;
+         }
+   }
+   .input {
+   }
+   
+}
