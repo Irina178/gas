@@ -4,9 +4,9 @@
    }
    .gasholder__heading{
 padding: 30px 0px 40px;
+margin: 0px 15px;
    }
-   .container {
-   }
+   
    .adept {
       background-color: $white;
       border-radius: 6px;
@@ -15,7 +15,7 @@ padding: 30px 0px 40px;
    .discussion {
       display: flex;
       flex-direction: column;
-      padding-bottom: 34px;
+    
    }
    .information {
     
@@ -44,22 +44,76 @@ padding: 30px 0px 40px;
             margin-right: 20px;
          }
    }
-   .input {
-   }
+   // .input {
+   // }
    
+   .conversion {
+      padding: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 20px;
+      margin: 15px 15px;
+      &__heading {
+         font-size: 24px;
+         line-height: 1;
+         font-weight: 400;
+         color: $link;
+         padding-bottom: 20px;
+      }
+   }
+   .rules {
+      font-size: 16px;
+      font-weight: 400;
+      color: $link;
+      line-height: 1;
+      text-align: center;
+     
+      &__list {
+         margin-bottom: 10px;
+      }
+   }
+.relus {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+		&__input {
+         width: 100%;
+         height: 40px;
+         padding: 10px;
+         border: 1px solid gray;
+   border-radius: 15px;
+   font-style: 24px;
+   line-height: 1;
+   font-weight: 400;
+		}
+}
+.sending {
+   display: flex;
+   justify-content: center;
+   background-color: $link;
+   border: 1px;
+   border-radius: 15px;
+		&__buttom {
+         padding: 12px 82px;
+         font-size: 16px;
+         line-height: 1;
+         color: $white;
+         font-weight: 400;
+		}
+}
 }
 @media screen and (min-width: 1110px ) {
-   .expert {
-   }
-   .container {
-   }
-   .adept {
-   }
+   // .expert {
+   // }
+   // .container {
+   // }
+   // .adept {
+   // }
    .discussion {
       display: flex;
       justify-content: space-between;
       flex-direction: row;
-      padding-bottom: 43px;
+     
    }
    .information {
   
@@ -82,7 +136,32 @@ padding: 30px 0px 40px;
             padding-left: 105px;
          }
    }
-   .input {
+   // .input {
+   // }
+   .conversion {
+      margin: 15px 65px 15px 15px;
+      &__heading {
+         font-size: 24px;
+         font-weight: 400;
+         color: $link;
+         line-height: 1;
+         text-align: center;
+         padding: 20px 0px;
+       }
    }
+   // .request {
+   // }
+   // .rules {
+   // }
+//    .relus {
    
-}
+//          &__input {
+//          }
+//    }
+//    .sending {
+
+// 		&__buttom {
+// 		}
+// }
+
+   }
