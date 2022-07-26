@@ -779,7 +779,7 @@ img {
 }
 @media screen and (min-width: 375px) {
   .gasification {
-    background-color: rgb(221, 236, 255);
+    background-color: #13284F;
     z-index: 0;
   }
   .supply {
