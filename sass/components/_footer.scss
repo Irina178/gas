@@ -1,0 +1,127 @@
+@media screen and (min-width: 375px ) {
+   .footer {
+      background-color: $bc_footer;
+      padding: 15px 0px 15px 0px;
+   }
+  
+   .denomination {
+      display: flex;
+      flex-direction: column;
+   }
+   .make {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 55px;
+   }
+   .product {
+      margin-right: 10px;
+   
+      &__list {
+            margin-bottom: 15px;
+         }
+   
+         &__link {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 0.8;
+            color: $white;
+            
+         }
+         &__link:hover{
+            color: $grey;
+            text-decoration: underline;
+         }
+   }
+   .contact {
+      margin-bottom: 50px;
+   &__list{
+      margin-bottom: 15px;
+   }
+         &__link {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 0.8;
+            color: $white;
+           
+         }
+         &__link:hover{
+            color: $grey;
+            text-decoration: underline;
+         }
+   }
+   .social {
+   display: flex;
+   flex-direction: row;
+         // &__list {
+         // }
+   
+         // &__link {
+           
+            
+         // }
+         &__svg{
+         background-color: $white;
+         padding: 10px;
+         border-radius: 50%;
+         margin-right: 10px;
+         }
+   }
+   
+}
+
+
+
+@media screen and (min-width: 1110px ) {
+   .footer {
+      background-color: $bc_footer;
+      padding: 15px 0px 15px 0px;
+   }
+  
+   .denomination {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .make {
+      display: flex;
+ 
+   }
+   .direction{
+     margin-right: 100px;
+   }
+   .product { 
+   
+      &__list {
+            margin-bottom: 15px;
+         }
+   
+         &__link {
+            font-size: 20px;
+            line-height: 1;
+         
+            
+         }
+      
+     
+   }
+   .contact {
+   &__list{
+      margin-bottom: 15px;
+   }
+         &__link {
+            font-size: 20px;
+            line-height: 1;
+         }
+       
+   }
+   // .social {
+   
+   //       &__list {
+   //       }
+   
+   //       &__link {
+   //       }
+   // }
+
+
+}

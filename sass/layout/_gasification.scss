@@ -1,0 +1,136 @@
+@media screen and (min-width: 375px ) {
+   .gasification {
+      background-image: url(/img/main/gasification_mobile_1x.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      z-index: 0;
+   }
+ 
+  
+   .supply {
+      padding: 95px 0px;
+   }
+   .page {
+   display: none;
+   }
+   .hup {
+   
+         &__header {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1;
+            color: $white;
+            padding: 0px 0px 25px 0px;
+         }
+   
+         &__text {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1;
+            color: $grey;
+            padding-bottom: 45px;
+         }
+         .chek{
+            display: flex;
+            align-items: center;
+            background-color: $link;
+            border-radius: 10px;
+         
+         &__buttom {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1;
+            color: $white;
+            padding: 15px 109px;
+            
+            
+         }
+      }
+
+      .workers{
+        position: relative;
+             &__img{
+             position: absolute;
+             top: 0;
+             left: 0;  
+             }
+       }
+   }
+   
+
+
+}
+@media screen and (min-width: 1110px ) {
+   .gasification {
+      background-image: url(/img/main/gasification_desctop_1x.png);
+      background-repeat: no-repeat;
+      // background-position: 50% 50%;
+      background-size: cover;
+   }
+  
+   .supply {
+padding: 30px 0px 155px 0px;
+   }
+   .page {
+   display: flex;
+   margin-bottom: 185px;
+ 
+         
+   
+         &__link {
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 400;
+            color: $white;
+           
+         }
+         &__link:first-child{
+          margin-right: 25px;
+         }
+   }
+   .hup {
+   
+         &__header {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1;
+            color: $white;
+            margin-right: 410px;
+            word-spacing: 5px;
+         }
+   
+         &__text {
+            font-size: 24px;
+            line-height: 1;
+            font-weight: 400;
+            columns: $white;
+            margin-right: 510px;
+         }
+   
+         .chek {
+display: inline;
+ 
+            &__buttom {
+               background-color: $link;
+               color: $white;
+               font-style: 20px;
+               line-height: 1;
+               font-weight: 400;
+            padding: 16px 48px;
+            border-radius: 10px;
+            border: 2px;
+            }
+            &__buttom:hover{
+               color:black;
+               text-decoration: underline;
+               border: 2px solid $white;
+             
+               font-weight: 600;
+            }
+      }
+      
+      
+   }
+   
+}

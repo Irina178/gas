@@ -1,0 +1,113 @@
+@media screen and (min-width: 375px ) {
+   .question {
+      padding: 35px 0px 40px;
+      background-color: $main_bg;
+   }
+    
+ 
+   .connection {
+      margin-bottom: 35px;
+      background-color: $white;
+      border-radius: 20px;
+     
+      width:345px ;
+   }
+   .piple {
+      margin-bottom: 30px;
+   padding-top:  30px;
+      display: flex;
+      justify-content: center;
+   
+         &__img {
+            width: 225px;
+            height: 284px;
+         }
+   }
+   .consultation {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+         &__heading {
+            text-align: center;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 1.2;
+            color: $black;
+            
+         }
+   
+         &__link {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 1;
+            color: $black;
+            text-align: center;
+         }
+         &__link:hover{
+            color: $link;
+            text-decoration: underline;
+         }
+   
+         &__text {
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: $black;
+            margin: 15px 0px 50px 0px;
+            text-align: center;
+         }
+   
+      
+   }
+   
+}
+@media screen and (min-width: 1110px ) {
+   .question {
+      padding: 60px 0px 90px 0px;
+   }
+  
+   .connection {
+      width: 1080px;
+      background-color: $white;
+      border-radius: 20px;
+      display: flex;
+   }
+   .piple {
+    margin: 20px 20px 20px 20px;
+   display: flex;
+  
+         &__img {
+          
+            width: 380px;
+            height: 400px;
+         }
+   }
+   .consultation {
+     
+      padding: 75px 0px 80px;
+    display: flex;
+    justify-content: center;
+      margin: 0px 11px 25px 0px;     
+       &__heading {
+            font-size: 36px;
+            line-height: 1.5 ;
+            font-weight: 400;
+            color: $black;
+         }
+         &__link {
+            font-size: 24px;
+            line-height: 1.4;
+            font-weight: 400;
+            color: $black;
+             }
+         &__text {
+            font-size: 24px;
+            line-height: 1.4;
+            font-weight: 400;
+            color: $black;
+            margin: 25px 0px 40px;
+            text-align: center;
+         }
+   }
+   
+}

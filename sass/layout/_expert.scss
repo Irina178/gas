@@ -1,0 +1,167 @@
+@media screen and (min-width: 375px ) {
+   .expert {
+      background-color: $main_bg;
+   }
+   .gasholder__heading{
+padding: 30px 0px 40px;
+margin: 0px 15px;
+   }
+   
+   .adept {
+      background-color: $white;
+      border-radius: 6px;
+     
+   }
+   .discussion {
+      display: flex;
+      flex-direction: column;
+    
+   }
+   .information {
+    
+         &__text {
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 400;
+            color: $blue_end_black;
+            margin-bottom: 10px;
+            padding-left: 15px;
+         }
+   }
+   .color {
+      color: $orange;
+      margin-bottom: 22px;
+   }
+   .result {
+   
+         &__list {
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 15px;
+            padding-left: 50px;
+            margin-right: 20px;
+         }
+   }
+   // .input {
+   // }
+   
+   .conversion {
+      padding: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 20px;
+      margin: 15px 15px;
+      &__heading {
+         font-size: 24px;
+         line-height: 1;
+         font-weight: 400;
+         color: $link;
+         padding-bottom: 20px;
+      }
+   }
+   .rules {
+      font-size: 16px;
+      font-weight: 400;
+      color: $link;
+      line-height: 1;
+      text-align: center;
+     
+      &__list {
+         margin-bottom: 10px;
+      }
+   }
+.relus {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+		&__input {
+         width: 100%;
+         height: 40px;
+         padding: 10px;
+         border: 1px solid gray;
+   border-radius: 15px;
+   font-style: 24px;
+   line-height: 1;
+   font-weight: 400;
+		}
+}
+.sending {
+   display: flex;
+   justify-content: center;
+   background-color: $link;
+   border: 1px;
+   border-radius: 15px;
+		&__buttom {
+         padding: 12px 82px;
+         font-size: 16px;
+         line-height: 1;
+         color: $white;
+         font-weight: 400;
+		}
+}
+}
+@media screen and (min-width: 1110px ) {
+   // .expert {
+   // }
+   // .container {
+   // }
+   // .adept {
+   // }
+   .discussion {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+     
+   }
+   .information {
+  
+   
+         &__text {
+            font-size: 20px;
+            line-height: 1;
+            font-weight: 400;
+            padding-left: 65px;
+         }
+   }
+   .color {
+      margin-bottom: 50px;
+   }
+   .result {
+   
+         &__list {
+            font-size: 18px;
+            padding-bottom: 35px;
+            padding-left: 105px;
+         }
+   }
+   // .input {
+   // }
+   .conversion {
+      margin: 15px 65px 15px 15px;
+      &__heading {
+         font-size: 24px;
+         font-weight: 400;
+         color: $link;
+         line-height: 1;
+         text-align: center;
+         padding: 20px 0px;
+       }
+   }
+   // .request {
+   // }
+   // .rules {
+   // }
+//    .relus {
+   
+//          &__input {
+//          }
+//    }
+//    .sending {
+
+// 		&__buttom {
+// 		}
+// }
+
+   }

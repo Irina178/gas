@@ -1,0 +1,107 @@
+@media screen and (min-width: 375px ) {
+   .implementation {
+      background-color: $main_bg;
+      padding: 30px 0px 70px 0px;
+   }
+   
+  
+   .task {
+   margin: 20px 0px;
+         &__text {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1;
+            color: $link;
+            padding-bottom: 5px;
+         }
+   
+         &__color {
+            font-weight: 400;
+            color: $black;
+         }
+   }
+   .hom {
+      margin: 20px 0px;
+   display: flex;
+         &__icon {
+            width: 345px;
+            height: 229px;
+            border-radius: 20px;
+         }
+   }
+   .outcom {
+   
+         &__heading {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1;
+            color: $link;
+            padding-bottom: 15px;
+         }
+   
+         &__text {
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 20px;
+         }
+   }
+   
+}
+@media screen and (min-width: 1110px ) {
+   .implementation {
+      
+      padding: 55px 0px 90px 0px;
+   }
+   
+   .container{
+      position: relative;
+   }
+   .task {
+      position: absolute;
+      top: 60px;
+      left: 600px;
+   margin: 60px 0px 80px 50px;
+         &__text {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1;
+            color: $link;
+            padding-bottom: 5px;
+         }
+   
+         &__color {
+            font-weight: 400;
+            color: $black;
+         }
+   }
+   .hom {
+     
+   display: flex;
+   justify-content: start;
+         &__icon {
+            width: 600px;
+            height: 400px;
+            border-radius: 20px;
+         }
+   }
+   .outcom {
+      position: absolute;
+      top: 320px;
+      left: 645px;
+         &__heading {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1;
+            color: $link;
+            padding-bottom: 15px;
+         }
+   
+         &__text {
+            font-weight: 400;
+            color: $black;
+            padding-bottom: 20px;
+         }
+   }
+   
+}
+

@@ -1,0 +1,117 @@
+
+@media screen and (min-width: 375px ) {
+   .finance {
+      background-color: $white;
+      padding: 25px 0px 35px 0px;
+   }
+   .gasholder__heading{
+font-size: 28px;
+line-height: 1;
+font-weight: 600;
+color: $link;
+padding-bottom: 25px;
+text-align: center;
+   }
+    
+   .wraper {
+   display: flex;
+   flex-direction: column; 
+   
+    
+         &__list {
+            background-color: $blue;
+            border-radius: 20px;
+            margin-bottom: 25px;
+           
+         }
+         &__list:hover{
+            background-color: $blue_end_black;
+         }
+         &__heading {
+            font-size: 22px;
+            line-height: 1;
+            font-weight: 400;
+            color: $link;
+            padding: 25px 13px 7px;
+            text-align: center;
+         }
+         &__heading:hover{
+            color: $white;
+         }
+         &__text {
+            font-size: 34px;
+            line-height: 1;
+            font-weight: 600;
+            color: $orange;
+            text-align: center;
+            padding-bottom: 15px;
+         }
+   }
+   .icone {
+   display: flex;
+ 
+   justify-content: center;
+         &__img {
+            border-radius: 20px;
+            width: 220px;
+            height: 220px;
+         }
+   }
+   .benefits {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0px 26px;
+     &__list{
+      text-align: center;
+font-size: 18px;
+line-height: 1;
+color: $link;
+font-weight: 400;
+padding-bottom: 20px;
+
+      }
+      &__list:last-child{
+         padding-bottom: 0px;
+      }
+      &__list:hover{
+         color: $white;
+      }
+   }
+   .order {
+   display: flex;
+  justify-content: center;
+  padding-bottom: 28px;
+         &__buttom {
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 400;
+            color: $link;
+            padding: 17px 60px;
+            background-color: $blue;
+            border-radius: 8px;
+            border: 1px solid $link;
+         }
+         &__buttom:hover{
+            border: 1px solid $white;
+            background-color: $orange;
+            color: $white;
+         }
+   }
+   
+}
+@media screen and (min-width: 1110px ) {
+   .finance {
+      padding:40px 0px 95px 0px;
+   }
+    
+   
+   .wraper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+         &__list {
+            width: 350px;
+           
+         }
+ }
+ }

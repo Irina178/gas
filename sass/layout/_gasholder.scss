@@ -1,0 +1,74 @@
+@media screen and (min-width: 375px ) {
+ .gasholder {
+display: none;
+ 
+}
+}
+
+@media screen and (min-width: 1110px ) {
+.gasholder {
+   padding: 84px 0px 42px 0px;
+   display: block;
+   background-color: $main_bg;
+
+   &__heading {
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 1;
+      color: $link;
+      text-align: center;
+      padding-bottom: 50px;
+   }
+}
+.production{
+display: flex;
+justify-content: space-between;
+}
+.picture {
+   display: flex;
+width: 360px;
+height: 360px;
+border: 2px solid green;
+border-radius: 50%;
+background-color: #fff;
+position: relative;
+margin-top: 90px;
+ 
+   &__img {
+      position: absolute;
+      top:100px;
+      left: 30px;
+   }
+}
+.constituent {
+   width: 630px;
+display: flex;
+flex-direction: column;
+ 
+   &__list {
+      padding-bottom: 50px;
+   }
+   &__list:nth-child(2){
+      margin-left: 65px;
+   }
+   &__list:nth-child(3){
+      margin-left: 65px;
+   }
+   &__subtitle {
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 600;
+      color: $link;
+      padding-bottom: 10px;
+      text-decoration: underline;
+      
+   }
+
+   &__text {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1;
+      color: $black;
+   }
+}
+}
